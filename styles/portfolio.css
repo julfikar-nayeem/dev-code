@@ -36,13 +36,16 @@
     line-height: 30px;
     color:#757575;
 }
+.text-center{
+    text-align: center;
+}
 /* Main style */
 
 header{
     background-color: #FFF8F3;
     background: url(../images/developer.png),url(../images/header_bg.png), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     padding-top : 50px;
 }
 .logo h2{
@@ -214,3 +217,44 @@ nav .menu a{
     line-height: 28px;
     color: #757575;
 }
+footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto; 
+}
+footer .footer-container{
+    width:71%;
+    max-width: 1140px;
+    margin: 0 auto ;
+    display: flex;
+    gap:117px;
+}
+  .footer-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+.footer-container .social p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+ .footer-container .social{
+    max-width: 562px;
+ }
+ .footer-container .icon a{
+    margin-right: 24px;
+ }
+  .footer-container form input[type="text"],.footer-container form textarea{
+    width: 461px;
+    margin-bottom: 24px;
+    padding: 18px 31px;
+    border: none;
+    border-radius : 5px;
+    color: #757575;
+  }
+  
